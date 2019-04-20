@@ -1,0 +1,17 @@
+.parent {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 16px;
+}
+
+.parent div {
+  height: 100px;
+}
+
+.parent div:nth-child(even) {
+  background-color: blue;
+}
+
+.parent div:nth-child(odd) {
+  background-color: red;
+}
